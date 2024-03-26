@@ -130,7 +130,7 @@
 }
 
 .skill_items3{
-    border-right: 5px double #FBA834;
+    border-right: 0px double #FBA834;
     min-width: 400px;
     max-width: 400px;
     align-self: stretch
@@ -206,6 +206,80 @@ li {
     text-align: center;
 }
 
+#contact{
+    background-color: #333A73;
+}
+
+.container_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1rem;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+
+}
+
+.heading3{
+    color: #FBA834;
+    font-family: "Monoton", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0%;
+    
+}
+
+#contact p{
+    color: #FBA834;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0%;
+    
+}
+
+.button{
+    background-color: #FBA834;
+    color: #333A73;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: "Helvetica", sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center; /* Center the text */    
+    align-self: center; /* Center the button */
+}
+
+.container_social{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1rem;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+
+}
+
+.social_logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    fill: #FBA834;
+}
+
 @media (max-width: 1500px) {
     .self_image{
         width: 75%;
@@ -222,11 +296,36 @@ li {
     
 }
 
-@media (max-width: 1245px) {
+    
+
+@media (max-width: 1241px) {
     .skill_items2{
         border-right: 0px
     }
-    
+    .skill_items3{
+        border-right: 0px
+    }
+}
+@media (max-width: 820px) {
+    .skill_items1{
+        border-right: 0px;
+        border-top: 5px double #FBA834;
+        padding: 10px 10px;
+    }
+    .skill_items2{
+        border-right: 0px;
+        border-top: 5px double #FBA834;
+        padding: 10px 10px;
+    }
+    .skill_items3{
+        border-right: 0px;
+        border-top: 5px double #FBA834;
+        padding: 10px 10px;
+    }
+
+    #skill_header{
+        padding: 0px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -262,4 +361,3 @@ li {
         padding-left: 0.5rem;
     }
 }
-
