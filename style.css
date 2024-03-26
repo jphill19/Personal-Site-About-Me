@@ -360,4 +360,7 @@ li {
     .padding {
         padding-left: 0.5rem;
     }
+    .heading_hero{
+        font-size: 2.5rem;
+    }
 }
